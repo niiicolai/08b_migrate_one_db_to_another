@@ -23,6 +23,7 @@ do
     
     # Check if it is possible to connect to the database
     # and ouput the list of databases
+    # note: 2>/dev/null; is used to suppress the error message
     if mysql -h $source_host -u $source_user -p$source_password -e "show databases" 2>/dev/null; then
         break
     else
