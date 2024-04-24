@@ -1,0 +1,18 @@
+{
+  "name": "08b_migrate_on_db_to_another",
+  "version": "1.0.0",
+  "description": "The repository contains a simple bash script making it easy to migrate from a MySQL to another MySQL database or from a MySQL to a PostgreSQL database. The script utilizes the `mysqldump` when only MySQL databases are involved, and it uses `pgloader` to handle the process of migrating from MySQL to PostgreSQL.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^3.1.0",
+    "mysql2": "^3.9.7",
+    "pg": "^8.11.5",
+    "sqlite3": "^5.1.7"
+  }
+}
