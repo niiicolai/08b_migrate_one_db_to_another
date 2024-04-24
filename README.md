@@ -193,4 +193,6 @@ Migration complete
 
 ```
 
-
+## Todo
+- Add support for references.
+- Add support for unique constraints
