@@ -194,5 +194,5 @@ Migration complete
 ```
 
 ## Todo
-- Add support for references.
-- Add support for unique constraints
+- Add support for references (migration generator).
+- Add support for unique constraints (migration generator)
