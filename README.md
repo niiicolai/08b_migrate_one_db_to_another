@@ -1,11 +1,14 @@
 # MySQL Migration Tool
-The repository contains a simple bash script making it easy to migrate from a MySQL to another MySQL database or from a MySQL to a PostgreSQL database. The script utilizes the `mysqldump` when only MySQL databases are involved, and it uses `pgloader` to handle the process of migrating from MySQL to PostgreSQL.
+The repository contains a simple bash script making it easy to migrate from a MySQL to another MySQL database or from a MySQL to a PostgreSQL database. The script utilizes the `mysqldump` when only MySQL databases are involved, and it uses `knex` migration and seeder files to migrate from MySQL to PostgreSQL.
 
 ## Dependencies
 The `PG_ONLY` dependencies are only required if you want to migrate from MySQL to PostgreSQL.
 * `REQUIRED` - MySQL (https://www.mysql.com/)
 * `PG_ONLY` - PostgreSQL (https://www.postgresql.org/)
-* `PG_ONLY` - pgloader (https://pgloader.io/)
+
+## Install
+1. Clone the repository.
+2. Run `npm install`. 
 
 ## Usage
 Execute the script and follow the steps.
